@@ -12,6 +12,10 @@ N/A
 
 This can be used as a guiding tool in regards to SEO, ORM, and SMM. The webpage now has fully functioning links to each part of the webpage. The semantics are now also updated to function correctly when needed. Image descriptions are also added for visibilty. Footer date is updated.
 
+Link to webpage is below.
+
+https://chjones2015.github.io/module1
+
 ## Credits
 
 N/A

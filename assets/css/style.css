@@ -1,29 +1,32 @@
+/* Box-sizing: border-box includes padding and border in an element's total width and height. */
+/* Padding: 0 removes padding around all elements. */
+/* Margin: 0 removes margins around all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* This sets the background color of the entire body. */
 body {
     background-color: #d9dcd6;
 }
-
+/* Styling rules for the header of the website. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Styling rules for h1 elements within the header. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Styling rules for elements with class "seo" within h1 elements within the header. */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Styling rules for div elements within the header. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +34,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Removes the bullet points from unordered lists within div elements within the header. */
 .header div ul {
     list-style-type: none;
 }
-
+/* Displays list items horizontally within unordered lists within div elements within the header. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Styling for all links. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Styling for all paragraph elements. */
 p {
     font-size: 16px;
 }
-
+/* Styling for the .hero class. */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Classes for floating elements to the left or right. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +71,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Styling for the .content class. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Styling for the .benefits class. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +88,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* The following rules apply to specific subclasses of the .benefits class, providing unique styles for each one. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +103,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* The following rules apply to h3 elements within specific subclasses of the .benefits class, providing unique styles for each one. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +118,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* The following rules apply to img elements within specific subclasses of the .benefits class, providing unique styles for each one. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +136,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The following rules apply to specific classes, providing unique styles for each one. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +163,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* The following rules apply to img elements within specific classes, providing unique styles for each one. */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +175,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* The following rules apply to h2 elements within specific classes, providing unique styles for each one. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,14 +190,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Styling for the footer of the website. */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Styling rules for h2 elements within the footer. */
 .footer h2 {
     font-size: 20px;
 }
